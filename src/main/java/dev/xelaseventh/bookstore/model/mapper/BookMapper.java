@@ -2,7 +2,9 @@ package dev.xelaseventh.bookstore.model.mapper;
 
 import dev.xelaseventh.bookstore.model.Book;
 import dev.xelaseventh.bookstore.model.dto.BookDTO;
-
+import org.springframework.stereotype.Component;
+// Spring Annotation
+@Component
 public class BookMapper {
 
     // Method to convert Book object into Book DTO
