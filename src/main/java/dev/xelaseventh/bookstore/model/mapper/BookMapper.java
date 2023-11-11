@@ -21,7 +21,7 @@ public class BookMapper {
     }
 
     // Method to convert Book DTO into Book Object
-    public Book convertToDto(BookDTO bookDTO) {
+    public Book convertToBook(BookDTO bookDTO) {
         Book book = new Book();
         book.setBookId(bookDTO.getBookId());
         book.setBookTitle(bookDTO.getBookTitle());
